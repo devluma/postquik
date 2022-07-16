@@ -23,20 +23,20 @@ organização e esforço. Para isso ele é dividido em 3 níveis:
   - [Algo a mais que você tenha a dizer](#Considerações) 📌
 2. (*): A estrutura base do sistema vai contar com 3 entidades (essas são as exigências mínimas para essa atividade): ❌
 ```json
-User:
-  id: id primary_key
-  name: string:100
-  email: string:191
-Post:
-  id: id primary_key
-  user_id: id foreign:users
-  title: string:100
-  description: text
-Comment:
-  id: id primary_key
-  user_id: id foreign:users
-  post_id: id foreign:posts
-  description: text
+  User:
+    id: id primary_key
+    name: string:100
+    email: string:191
+  Post:
+    id: id primary_key
+    user_id: id foreign:users
+    title: string:100
+    description: text
+  Comment:
+    id: id primary_key
+    user_id: id foreign:users
+    post_id: id foreign:posts
+    description: text
 ```
 3. (**): Crie um sistema de autenticação. ❌
 4. (*): Com o usuário você pode fazer dois processos de CRUD: ❌
