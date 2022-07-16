@@ -21,9 +21,7 @@ organização e esforço. Para isso ele é dividido em 3 níveis:
   - [O que vale destacar no código implementado?](#Considerações) 📌
   - [O que poderia ser feito para melhorar o sistema?](#Considerações) 📌
   - [Algo a mais que você tenha a dizer](#Considerações) 📌
-  
 2. (*): A estrutura base do sistema vai contar com 3 entidades (essas são as exigências mínimas para essa atividade): ❌
-
 ```json
 User:
   id: id primary_key
@@ -40,35 +38,30 @@ Comment:
   post_id: id foreign:posts
   description: text
 ```
-
 3. (**): Crie um sistema de autenticação. ❌
 4. (*): Com o usuário você pode fazer dois processos de CRUD: ❌
   - *CRUD simples;* ❌
     - *Colocar checagem de permissão se possuir autenticação.* ❌
   - *Ou se possuir autenticação;* ❌
     - *Registro na fase de autenticação com edição de perfil do usuário logado.* ❌
-
 5. (*): Com as postagens é preciso fazer um CRUD simples com algumas exigências: ❌
   - *Apenas o próprio usuário pode editar ou excluir as postagens;* ❌
   - *(\*\*): a postagem tenha a possibilidade de adicionar uma imagem;* ❌
   - *(\*\*\*): as edições sejam salvas como um histórico;* ❌
   - *(\*\*\*): a postagem tenha um contador de visualizações;* ❌
   - *(\*\*\*): a postagem tenha um contador de curtidas e não curtidas.* ❌
-
 6. (*): Com os comentários é preciso fazer um CRUD simples com algumas exigências: ❌
   - *Apenas o próprio usuário pode editar os comentários;* ❌
   - *Usuário do comentário pode remover o comentário;* ❌
   - *(\*\*): Usuário da postagem também pode remover o comentário;* ❌
   - *(\*\*\*): Adicionar marcador que foi removida pelo usuário ou dono da postagem;* ❌
   - *(\*\*\*): Mandar um e-mail para o usuário da postagem que ele possui um novo comentário em seu post;* ❌
-
 7. (**): Crie uma rota que gere um relatório que traga os posts com os seguintes campos: ❌
   - *Título;* ❌
   - *Quantos comentários eles possuem;* ❌
   - *(\*\*\*): Quantas visualizações;* ❌
   - *(\*\*\*): Quantas curtidas;* ❌
   - *(\*\*\*): Quantas não curtidas.* ❌
-
 8. Considerações e Documentação: ✔️
   - [Documentação da API](https://github.com/devluma/postquik/tree/develop/api) 📌
   - [Documentação do APP](https://github.com/devluma/postquik/tree/develop/web) 📌
