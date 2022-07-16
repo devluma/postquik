@@ -1,0 +1,15 @@
+{
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components"
+  ],
+  "rules": {
+    "max-nesting-depth": 2,
+    "custom-property-empty-line-before": ["always", { "except": ["after-custom-property"] }],
+    "max-empty-lines": 1,
+    "no-extra-semicolons": true
+  }
+}

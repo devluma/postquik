@@ -1,0 +1,48 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-prefer-function-component",
+    "import",
+    "testing-library"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:react-prefer-function-component/recommended"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test)(s).[jt]s?(x)"
+      ],
+      "extends": [
+        "plugin:testing-library/react"
+      ]
+    }
+  ],
+  "rules": {
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
+    "react/display-name": "off",
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "import/export": "warn",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": "off"
+  }
+}

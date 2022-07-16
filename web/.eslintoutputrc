@@ -1,0 +1,15 @@
+{
+  "formats": [
+    {
+      "name": "stylish",
+      "output": "console"
+    },
+    {
+      "name": "json",
+      "output": "file",
+      "path": "linter/eslint-report.json",
+      "id": "json"
+    }
+  ],
+  "eslintConfig": {}
+}
