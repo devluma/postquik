@@ -1,0 +1,117 @@
+{
+  "auth": {
+    "ok": true,
+    "data": {
+      "account": {
+        "id": "2455fde9-1537-4412-91bc-d9ca7ecd64a0",
+        "fullname": "Luiz Marcelo Schmitt",
+        "email": "luiz.schmitt@sysdomotic.com.br",
+        "phone": "5551900000000",
+        "status": "active",
+        "role": "root",
+        "first_access": false,
+        "profile_picture": "https://profile-root.png",
+        "city": {
+          "id": "fe38ecb2-faeb-4b1c-bd4d-dfa23d0185fd",
+          "name": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "key": 43,
+          "uf": "RS",
+          "country": "BR"
+        },
+        "iat": 1657983212,
+        "exp": 1657986842,
+        "firebase_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1qeHY3bEBibHVtaS1tb2JpbGlkYWRlLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwic3ViIjoiZmlyZWJhc2UtYWRtaW5zZGstanh2N2xAYmx1bWktbW9iaWxpZGFkZS5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsImF1ZCI6Imh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwiaWF0IjoxNjU3OTgzMjQyLCJleHAiOjE2NTc5ODY4NDIsInVpZCI6IjI0NTVmZGU5LTE1MzctNDQxMi05MWJjLWQ5Y2E3ZWNkNjRhMCIsImNsYWltcyI6e319.Yqob7yRErrsX5wTkHQZoc9QdgZoB46iEZGQg-t9AnEHQKebCCndEE5ct3wvpvZocLu6obWaFv54RdLisyMgjsf9B8IxD2gkuMEyKa66j60kqf9oGRqmEox-2z3ClG6Th9EFYLNEJWZXtWRqL2utiVsU2mS9t7FOX4coUdlejGF8lDTzncekVfYHiblZn1S6AZD68-hKbKaeuEFW_YUxVt4EwlgeLkWv-TBMDivm9AMpVw0Oplj9TfxDJTFrH9Fs43qTuyyvaQlDoCG-WeqFElMGOpfyzPiqqwIUJ0Jhi6oN-qTYmCXsQIBSOfrc8zx1r0oTwbjuSsiWbNo_wu05jxg",
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiMjQ1NWZkZTktMTUzNy00NDEyLTkxYmMtZDljYTdlY2Q2NGEwIiwiZW1haWwiOiJyb290LnlvdW5uZXJAYmx1bWkuY29tLmJyIiwiZnVsbG5hbWUiOiJSb290IFlvdW5uZXIiLCJyb2xlIjoicm9vdCJ9LCJpYXQiOjE2NTc5ODMyMTIsImV4cCI6MTY1Nzk4Njg0MiwidWlkIjoiMjQ1NWZkZTktMTUzNy00NDEyLTkxYmMtZDljYTdlY2Q2NGEwIn0.or5mGPg3ZXP-qaKppO__FDc2XnAtYNlNddwOBU0Ihfk"
+      }
+    }
+  },
+  "profile": {
+    "ok": true,
+    "data": {
+      "account": {
+        "id": "2455fde9-1537-4412-91bc-d9ca7ecd64a0",
+        "fullname": "Luiz Marcelo Schmitt",
+        "email": "luiz.schmitt@sysdomotic.com.br",
+        "phone": "5551900000000",
+        "status": "active",
+        "role": "root",
+        "cpf": null,
+        "cnpj": null,
+        "first_access": false,
+        "profile_picture": "https://profile-root.png",
+        "city": {
+          "id": "fe38ecb2-faeb-4b1c-bd4d-dfa23d0185fd",
+          "name": "Porto Alegre",
+          "state": "Rio Grande do Sul",
+          "key": 43,
+          "uf": "RS",
+          "country": "BR"
+        },
+        "firebase_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1qeHY3bEBibHVtaS1tb2JpbGlkYWRlLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwic3ViIjoiZmlyZWJhc2UtYWRtaW5zZGstanh2N2xAYmx1bWktbW9iaWxpZGFkZS5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsImF1ZCI6Imh0dHBzOi8vaWRlbnRpdHl0b29sa2l0Lmdvb2dsZWFwaXMuY29tL2dvb2dsZS5pZGVudGl0eS5pZGVudGl0eXRvb2xraXQudjEuSWRlbnRpdHlUb29sa2l0IiwiaWF0IjoxNjU3OTgxNzAzLCJleHAiOjE2NTc5ODUzMDMsInVpZCI6IjI0NTVmZGU5LTE1MzctNDQxMi05MWJjLWQ5Y2E3ZWNkNjRhMCIsImNsYWltcyI6e319.tR-KpRhdNrL6K8ExvFamjCLGPEf9echoalOVkYOBndC-t6jYsbryvVZtlICeixfQk65TrkLb68zPjcRSdSfNkteS-FSroyqiO8I6vT9H-wDpiTFX_7ugDo8ljL1qx9C_Jjh9woctSznpwEiMzriJIsUeHabhE_JfDTsWX02un_X7kNcpCLKrbJtoTBn6iPo4ISGisU_RA3dChxZDXSJ5kBWJIQjyyqTn1sxDWZ2JDLQhWReShtD-3KPLvzBg4_lw_7m3f_0uq5u1LXhQFb5da3aMBBdHmMFZMI1WUi5y-ntmVRV1VHwLnLcaNsEtFSEPxzAYUEOEb0OJCa6BSpJB5A"
+      }
+    }
+  },
+  "posts": {
+    "ok": true,
+    "data": {
+      "results": [
+        {
+          "id": "0e88f8b5-f6dc-42ea-a16f-c5ca156a0cfb",
+          "publisher_id": "2455fde9-1537-4412-91bc-d9ca7ecd64a0",
+          "coment_id": "fe38ecb2-faeb-4b1c-bd4d-dfa23d0185fd",
+          "title": "Um titulo",
+          "description": "Uma descricao"
+        },
+        {
+          "id": "30dc8357-26c6-416f-bc64-f2ca933305f6",
+          "publisher_id": "2455fde9-1537-4412-91bc-d9ca7ecd64a0",
+          "coment_id": "fe38ecb2-faeb-4b1c-bd4d-dfa23d0185fd",
+          "title": "Um titulo",
+          "description": "Uma descricao"
+        },
+        {
+          "id": "19bf34f6-ff36-45c7-a5c4-a02c717963f3",
+          "publisher_id": "2455fde9-1537-4412-91bc-d9ca7ecd64a0",
+          "coment_id": "fe38ecb2-faeb-4b1c-bd4d-dfa23d0185fd",
+          "title": "Um titulo",
+          "description": "Uma descricao"
+        }
+      ],
+      "total": 3,
+      "page": 1,
+      "page_size": 100
+    }
+  },
+  "comments": {
+    "ok": true,
+    "data": {
+      "results": [
+        {
+          "id": "0e88htb5-f6dc-487y-w678-c5ca150okjhfb",
+          "post_id": "0e88f8b5-f6dc-42ea-a16f-c5ca156a0cfb",
+          "user_id": "2455fde9-1537-4412-91bc-d9ca7ecd64a0",
+          "message": "Uma mensagem",
+          "number_of_likes": 2
+        },
+        {
+          "id": "0e88htb5-f6dc-487y-w678-c5ca150okjhfb",
+          "post_id": "30dc8357-26c6-416f-bc64-f2ca933305f6",
+          "user_id": "2455fde9-1537-4412-91bc-d9ca7ecd64a0",
+          "message": "Uma mensagem",
+          "number_of_likes": 5
+        }
+      ],
+      "total": 3,
+      "page": 1,
+      "page_size": 100
+    }
+  },
+  "error": {
+    "ok": false,
+    "error": {
+      "code": 404,
+      "message": "Route not found"
+    }
+  }
+}
