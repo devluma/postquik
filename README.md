@@ -18,9 +18,6 @@ organização e esforço. Para isso ele é dividido em 3 níveis:
 1. (*):</span> Elabore um documento Readme.md no projeto que tenha os seguintes detalhes: ❌
   - *Descreva a stack utilizada, como versão da linguagem utilizada, framework e o porquê de ter escolhido, pacotes adicionados, banco de dados, etc....* ❌
   - *Descreva como subir o sistema para executar os testes.* ❌
-  - [O que vale destacar no código implementado?](#Considerações) 📌
-  - [O que poderia ser feito para melhorar o sistema?](#Considerações) 📌
-  - [Algo a mais que você tenha a dizer](#Considerações) 📌
 2. (*): A estrutura base do sistema vai contar com 3 entidades (essas são as exigências mínimas para essa atividade): ❌
 ```json
   User:
@@ -65,6 +62,9 @@ organização e esforço. Para isso ele é dividido em 3 níveis:
 8. Considerações e Documentação: ✔️
   - [Documentação da API](https://github.com/devluma/postquik/tree/develop/api) 📌
   - [Documentação do APP](https://github.com/devluma/postquik/tree/develop/web) 📌
+  - [O que vale destacar no código implementado?](#Considerações) 📌
+  - [O que poderia ser feito para melhorar o sistema?](#Considerações) 📌
+  - [Algo a mais que você tenha a dizer](#Considerações) 📌
   - [O que vale destacar no código implementado?](#Considerações) 📌
   - [O que poderia ser feito para melhorar o sistema?](#Considerações) 📌
   - [Algo a mais que você tenha a dizer](#Considerações) 📌
