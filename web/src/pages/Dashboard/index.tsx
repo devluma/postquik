@@ -14,6 +14,41 @@ const Dashboard: React.FC = () => {
     ["Vue", 50],
   ]);
 
+  const [dataPieChart2, setDataPieChart2] = useState([
+    ["Task", "Hours per Day"],
+    ["Work", 11],
+    ["Eat", 2],
+    ["Commute", 2],
+    ["Watch TV", 2],
+    ["Sleep", 7],
+  ]);
+
+  const [dataPieChart3, setDataPieChart3] = useState([
+    ["Language", "Speakers (in millions)"],
+    ["Assamese", 13],
+    ["Bengali", 83],
+    ["Bodo", 1.4],
+    ["Dogri", 2.3],
+    ["Gujarati", 46],
+    ["Hindi", 300],
+    ["Kannada", 38],
+    ["Kashmiri", 5.5],
+    ["Konkani", 5],
+    ["Maithili", 20],
+    ["Malayalam", 33],
+    ["Manipuri", 1.5],
+    ["Marathi", 72],
+    ["Nepali", 2.9],
+    ["Oriya", 33],
+    ["Punjabi", 29],
+    ["Sanskrit", 0.01],
+    ["Santhali", 6.5],
+    ["Sindhi", 2.5],
+    ["Tamil", 61],
+    ["Telugu", 74],
+    ["Urdu", 52],
+  ]);
+
   const [dataScatterChart, setDataScatterChart] = useState([
     ["Generation", "Descendants"],
     [0, 1],
@@ -50,6 +85,23 @@ const Dashboard: React.FC = () => {
     },
   });
 
+  const optionsPieChart2 = {
+    title: "My Daily Activities",
+    is3D: true,
+  };
+
+  const optionsPieChart3 = {
+    title: "Indian Language Use",
+    legend: "none",
+    pieSliceText: "label",
+    slices: {
+      4: { offset: 0.2 },
+      12: { offset: 0.3 },
+      14: { offset: 0.4 },
+      15: { offset: 0.5 },
+    },
+  };
+
   return (
     <S.Container>
       <ContentHeader title="Dashboard" lineColor="#4E41F0" />
@@ -71,8 +123,8 @@ const Dashboard: React.FC = () => {
           <Chart
             chartType="PieChart"
             data={dataPieChart}
-            width="100%"
-            height="200px"
+            width={"100%"}
+            height={"200px"}
             legendToggle
           />
         </S.Column>
@@ -80,9 +132,10 @@ const Dashboard: React.FC = () => {
         <S.Column>
           <Chart
             chartType="PieChart"
-            data={dataPieChart}
-            width="100%"
-            height="200px"
+            data={dataPieChart2}
+            options={optionsPieChart2}
+            width={"100%"}
+            height={"200px"}
             legendToggle
           />
         </S.Column>
@@ -90,10 +143,10 @@ const Dashboard: React.FC = () => {
         <S.Column>
           <Chart
             chartType="PieChart"
-            data={dataPieChart}
-            width="100%"
-            height="200px"
-            legendToggle
+            data={dataPieChart3}
+            options={optionsPieChart3}
+            width={"100%"}
+            height={"200px"}
           />
         </S.Column>
 
@@ -101,8 +154,8 @@ const Dashboard: React.FC = () => {
           <Chart
             chartType="PieChart"
             data={dataPieChart}
-            width="100%"
-            height="200px"
+            width={"100%"}
+            height={"200px"}
             legendToggle
           />
         </S.Column>

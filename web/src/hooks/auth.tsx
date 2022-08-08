@@ -17,11 +17,13 @@ const AuthProvider: React.FC = ({ children }) => {
   });
 
   const sigin = async (email: string, pass: string): Promise<void> => {
-    const user = await api.get("/auth").catch(err => Promise.reject(err));
+    // const user = await api.get("/auth").catch(err => Promise.reject(err));
 
-    console.log(user.data);
+    // console.log(user.data);
 
-    if (email === "admin@reactposts.com" && pass === "@reactposts") {
+    console.log(process.env);
+
+    if (email === process.env.USER_EMAIL_TEST && pass === process.env.USER_PASSWORD_TEST) {
       localStorage.setItem("@reactposts:login", "true");
       localStorage.setItem("@reactposts:username", "Admin");
       setLogged(true);
